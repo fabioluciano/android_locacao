@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/ab_adicionar_locacao"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/adicionar_locacao">
+    </item>
+    <item android:id="@+id/ab_remover_cliente" android:title="@string/remover_cliente" android:enabled="true" android:showAsAction="ifRoom"></item>
+</menu>

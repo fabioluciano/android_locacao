@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/ab_salvar"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/salvar">
+    </item>
+    <item
+        android:id="@+id/ab_cancelar"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancelar">
+    </item>
+
+</menu>

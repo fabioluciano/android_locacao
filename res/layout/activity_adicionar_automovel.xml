@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:id="@+id/str_modelo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modelo"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cmp_modelo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/modelo_do_automovel"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/str_ano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/ano"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cmp_ano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ano_do_automovel"
+        android:inputType="date" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/str_placa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/placa"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cmp_placa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placa_do_automovel"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/str_preco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/preco"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cmp_preco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/preco_do_automovel"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
